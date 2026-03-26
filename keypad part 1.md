@@ -28,4 +28,4 @@ I was able to load circuit python through [this guide](https://learn.adafruit.co
 ## 17:00
 With the heavy use of codex i was able to adapt an implementation of kmk firmware to work with the limited memory this micro controller has available the full firmware is available at this [github repository](https://github.com/fippolo/kmk-esp)  and now everything works and i should be able to start making macros as i see fit
 
-:warning: the firmware fork was unstable so i took it down for now, I will write a custom firmware once i get the time to go 
+:warning: the firmware fork was unstable so i took it down for now, I will write a custom firmware once i get the time to go around it
