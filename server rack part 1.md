@@ -27,3 +27,8 @@ And so i ended up scrapping this idea and just welding a solid chunk of metal wi
 As i welded this later on that evening another friend of mine came in clutch and gifted me some actual rails to use for this ![[Pasted image 20260327155221.png]]
 Remembering me of the best rule of engineering: Don't make what you can buy, that i interpret as "don't make what you can get for free"  (thank you Bocco). So now it's just a mater of finding a way to fasten these to the wood in some way.
 I do have some L brackets i could use for this either welding or screwing them in place although i am not sure about the interference with the cage nuts, i'll just have to wait for them to arrive to check. Besides i think welding them will warp the rails more than they already are from cutting and grinding
+
+## 22:21
+I ended up screwing them to the rails, to do so i used a a drill press: first i transferred the holes from the l bracket to the rails 
+![[Pasted image 20260327222319.png]]
+Then i added oil and drilled trough 
