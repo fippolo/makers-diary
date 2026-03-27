@@ -32,3 +32,15 @@ I do have some L brackets i could use for this either welding or screwing them i
 I ended up screwing them to the rails, to do so i used a a drill press: first i transferred the holes from the l bracket to the rails 
 ![[Pasted image 20260327222319.png]]
 Then i added oil and drilled trough 
+![[Pasted image 20260327222353.png]]
+The i just fastened the L brackets
+![[Pasted image 20260327222412.png]]
+And the just repeated the process twice.
+Later i just assembled it, using the square tubular profile for the back support and i ended up with this:
+![[Pasted image 20260327222534.png]]
+Better to not look at it too close, you might notice how skewed it is. 
+Then i added the devices and cabled everything, and i must say, for how much it is randomly thrown together it does its job remarkably well.
+![[Pasted image 20260327222710.png]]
+Next up it's going to be a patch panel, crimped to length cables, an enclosure and an actual drawer for the "server". And maybe a complete gridfinity grid on top 
+
+So that's about it for this project, i must say 
