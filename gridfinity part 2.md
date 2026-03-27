@@ -29,7 +29,7 @@ I found [this](https://makerworld.com/en/models/1131369-modular-screwdriver-grid
 But they all seem so wasteful, if i can find a .step i'll remix and make my own (also what's up with digital calipers? Just learn to read one or get a dial one i don't get the need to add a failure point). Couldn't find anything so i'm opening Fusion and going to make my own.
 
 ## 13:44
-The first desing is done
+The first design is done
 ![[Pasted image 20260325134420.png]]
 I had to split it in the middle to fit my printing plate although i will later post it as a single step that you can divide by object in the slicer if it doesn't fit the plate, i also prepared a test print that i will be posting alongside it to make sure your caliper fit and to aid the design process.
 ![[Pasted image 20260325134640.png]]
