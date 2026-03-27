@@ -9,4 +9,5 @@ Today i wanted to talk about how i recently got into automation. I have a "serve
 ![[Pasted image 20260327094045.png]]
 That is just an electrical box with a [3 relay module](https://it.aliexpress.com/item/1005005721397678.html?spm=a2g0o.order_list.order_list_main.152.19e11802UOo3go&gatewayAdapt=glo2ita) and a [esp32-c3](https://it.aliexpress.com/item/1005007663345442.html?spm=a2g0o.order_list.order_list_main.29.19e11802UOo3go&gatewayAdapt=glo2ita) from aliexpress.
 It has 4 cables coming out of it, one has a male electrical socket at the end, to take power in and the other 3 have some female electrical sockets to give power out. The schematic is as follow![[Pasted image 20260327095728.png]]
-And of cource the relays 
+And of course the relays interrupt either the phase or neutral of the mains line, it does not matter which one in particular since the plugs could always be flipped when plugging them in so there's no sense in distinguishing what gets actually opened (the actual correct way of doing this would be to cut both N and L using double poles relays).
+Anyway i ended up spending more money on correctly sized cables
