@@ -1,10 +1,10 @@
 ---
-created: 2026-03-27
+created: 2026-03-26
 tags:
   - 3d
   - diary
 ---
-# 01:28
+
 Today i finished designing and printing the caliper holder which i will shortly be posting on my printables account. For now here is the final result:
 ![[Pasted image 20260327012512.png]]
 I found i had to remove some material because i dont have magnets on my grid and the friction of the fit was making it impossible to get it out without lifting the print from the grid.
