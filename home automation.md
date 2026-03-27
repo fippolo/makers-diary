@@ -317,4 +317,11 @@ app.run()
 Then i just integrated it in home assistant and with a homekit bridge i can integrate it in the home app of ios and set up some scenes so that i can just turn of everything with Siri or the home app when i want to go to sleep or i'm heading out. Then having a smart light besides my bed 
 I can streamline my waking up/going to sleep routines (also spoilers on the entertaining system)![[Pasted image 20260327103241.png]]
 ___
-Perhaps today i will work on my "desk companion" wich is just a esp32 with a  
+Perhaps today i will work on my "desk companion" which is just a esp32 with a mosfet to control a screen light and a 1602 lcd display just below my monitor, i have made this a while ago and it is standalone and is controlled from a web interface:
+
+![[Pasted image 20260327103608.png]]
+![[Pasted image 20260327103627.png]]
+
+Also the vesa light bar mount can be found on my [printables page](https://www.printables.com/model/1072383-vesa-lightbar) it is one of my first design so go easy.
+I would like to transition it from a web interface to a mqtt client so that i can integrate it in home assistant and use the lcd to show important information like stuff from a calendar i
+
