@@ -314,4 +314,7 @@ app.run()
 
 ```
 
-Then i just integrated it in home assistant and with a homekit bridge i can integrate it in the home app of ios and set up some scenes so that i can just turn of everything with Siri or the home app when i want to go to sleep or i'm heading out. Then integrating it in 
+Then i just integrated it in home assistant and with a homekit bridge i can integrate it in the home app of ios and set up some scenes so that i can just turn of everything with Siri or the home app when i want to go to sleep or i'm heading out. Then having a smart light besides my bed 
+I can streamline my waking up/going to sleep routines (also spoilers on the entertaining system)![[Pasted image 20260327103241.png]]
+___
+Perhaps today i will work on my "desk companion" wich is just a esp32 with a  
