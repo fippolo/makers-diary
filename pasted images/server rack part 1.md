@@ -13,4 +13,11 @@ It, unfortunately, is defined in imperial (ik shocker) and it turns out the the 
 And so i bought a some meters of 15mm square tubing with the intent to drill holes at the right distances and the use a nut and bolt instead of the classic captive nut to hold stuff to it and the screw them in place between 2 wooden boards.
 And so i hopped into fusion and started modeling some stuff. Firstly i needed a way to bolt the bars to the wood, and i came up with this 
 ![[Pasted image 20260327154316.png]]![[Pasted image 20260327154323.png]]
-Very simple design, the bar gets pressed through the first component and then the cap gets pressed into it and when you screw it all down the top part wil press on the lower part locking it in place, althooug
+Very simple design, the bar gets pressed through the first component and then the cap gets pressed into it and when you screw it all down the top part wil press on the lower part locking it in place, although i am quite proud of this design it will later be replaced.
+Then i made some drill guides ![[Pasted image 20260327154519.png]]
+One to start the whole column of holes from the bottom of the bar an the other to chase them to the end. 
+Some problems i have got with this design:
+- The drill chewed up the holes making them not aligned and messing up the spacing
+- The heat from the drilling was causing chips to stick to the printed parts
+- I needed to print a lot of them for this reasons even tough i was using a drill press
+- The sizin
