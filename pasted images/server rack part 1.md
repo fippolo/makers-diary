@@ -8,8 +8,9 @@ tags:
 ## 15:09
 Some time in the past as i acquired the network appliances i have today i thought to buy a rack and make a neat little thing, seeing also the prices for used servers it made a lot of sense to me... But... The actual hardware is not the problem, the problem are the prices of actual racks, i could not find anything below 60€ after shipping. So as any maker would i just applied maker math, if i spend less than 60€ in making it myself i'll profit the experience from making it (or any tool i buy for it).
 Let's get into my first try, me being an avid 3d printer of course i firstly thought to tackle this through the use of my favorite tool, and so i started by looking at the rack's standard.
-It, unfortunately, is defined in imperial (ik shocker) and it turns out the the actual dimensions are pretty close to metric round values
-![[Pasted image 20260327153834.png]]
+It, unfortunately, is defined in imperial (ik shocker) and it turns out the the actual dimensions are pretty close to metric round values (image from wikipedia):
+![[Pasted image 20260327153834.png]]*“19" Server rack rail dimensions in mm” by [Sakurambo](https://commons.wikimedia.org/wiki/User:Sakurambo), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:19%22_Server_rack_rail_dimensions_in_mm.svg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+
 And so i bought a some meters of 15mm square tubing with the intent to drill holes at the right distances and the use a nut and bolt instead of the classic captive nut to hold stuff to it and the screw them in place between 2 wooden boards.
 And so i hopped into fusion and started modeling some stuff. Firstly i needed a way to bolt the bars to the wood, and i came up with this 
 ![[Pasted image 20260327154316.png]]![[Pasted image 20260327154323.png]]
@@ -24,4 +25,5 @@ Some problems i have got with this design:
 And so i ended up scrapping this idea and just welding a solid chunk of metal with a hole through to fix the rod to the wood
 ![[Pasted image 20260327155117.png]]
 As i welded this later on that evening another friend of mine came in clutch and gifted me some actual rails to use for this ![[Pasted image 20260327155221.png]]
-Remembering me of the best rule of engineering: Don't make what you can buy, that i interpret as "don't make what you can get for free"  (thank you Bocco). So now it's just a mater of finding a way to fasten these to the wood in some way
+Remembering me of the best rule of engineering: Don't make what you can buy, that i interpret as "don't make what you can get for free"  (thank you Bocco). So now it's just a mater of finding a way to fasten these to the wood in some way.
+I do have some L sh
