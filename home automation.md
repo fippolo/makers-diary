@@ -12,7 +12,8 @@ It has 4 cables coming out of it, one has a male electrical socket at the end, t
 And of course the relays interrupt either the phase or neutral of the mains line, it does not matter which one in particular since the plugs could always be flipped when plugging them in so there's no sense in distinguishing what gets actually opened (the actual correct way of doing this would be to cut both N and L using double poles relays).
 Anyway i ended up spending more money on correctly sized cables and cable glands and the up to code electrical box (i would like to avoid a home fire), and it shows because even though the relays are marked as 230v 10a, relay number 2 shit itself after trying to switch my computer which should be around .8 Kw so even though it is within the relay maximum current (800 W / 230 V = 3.47 A) it welded itself open (i think at least), there should be a lesson about inrush current somewhere here but i cannot be bothered to learn it since the rated current for the relay is almost triple what the psu should pull, i think it just boils down to cheapo Chinese manufacturing and QC standards.
 For now i 2 contacts will have to do.
-Let's talk about firmware real quick. The firmware is written in circuit python since now i can update it without having to plug the esp32 to the computer every time i have to flash new firmware, and it basically just posts relay states and read commands in mqtt on my network, the broker is hosted in the same machine as the homeassistant  server 
+Let's talk about firmware real quick. The firmware is written in circuit python since now i can update it without having to plug the esp32 to the computer every time i have to flash new firmware, and it basically just posts relay states and read commands in mqtt on my network, the broker is hosted in the same machine as the homeassistant  server.
+The firmware is pretty simple and here it is if anyone is interested: 
 ```python
 import json
 import os
@@ -312,3 +313,5 @@ app = App()
 app.run()
 
 ```
+
+Then i just integrated it in home assistant and with a homekit bridge i can integrate it in the home app of ios and set up some scenes so that i can just turn of everything with Siri or the home app when i want to go to sleep or i'm heading out. Then integrating it in 
