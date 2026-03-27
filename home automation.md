@@ -1,7 +1,6 @@
 ---
 created: 2026-03-27
 tags:
-  - diary
   - electronics
 ---
 Today i wanted to talk about how i recently got into automation. I have a "server", which is just a laptop without a screen, glued on the underside of my desk (i know, i know), linked to my network using a 10/100 24 port switch that a friend of mine generously gave to me (also glued to my desk).
@@ -323,5 +322,7 @@ Perhaps today i will work on my "desk companion" which is just a esp32 with a mo
 ![[Pasted image 20260327103627.png]]
 
 Also the vesa light bar mount can be found on my [printables page](https://www.printables.com/model/1072383-vesa-lightbar) it is one of my first design so go easy.
-I would like to transition it from a web interface to a mqtt client so that i can integrate it in home assistant and use the lcd to show important information like stuff from a calendar i
+I would like to transition it from a web interface to a mqtt client so that i can integrate it in home assistant and use the lcd to show important information like stuff from a calendar integration or network/docker diagnostics.
+I would also like to take a look at node red in the near future for more complicated automation scripts like a progressive lighting up of my room as my alarm approaches, i would also like to install motorized blinds in my windows.
 
+So for now that's it for today, thank you for reading this!
