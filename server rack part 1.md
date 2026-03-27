@@ -43,4 +43,10 @@ Then i added the devices and cabled everything, and i must say, for how much it 
 ![[Pasted image 20260327222710.png]]
 Next up it's going to be a patch panel, crimped to length cables, an enclosure and an actual drawer for the "server". And maybe a complete gridfinity grid on top 
 
-So that's about it for this project, i must say 
+So that's about it for this project, i must say, even tho the infrastructure is the same as before, it feels much more professional and i can see the extensibility of such a rack, i will be on the lookout for people to low ball on fb marketplace for actual server hardware.
+Before ending this entry i would like to add some notable mentions:
+
+Shout out to Sam's girlfriend for getting doughnuts 
+![[Pasted image 20260327223152.png]]
+And shout out to Sam for sleeping through the hole process besides me
+![[Pasted image 20260327223245.png]]
