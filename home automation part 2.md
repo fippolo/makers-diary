@@ -14,4 +14,6 @@ So now it's time for the screen and light to get mqtt'd
 This one i actually need to plug a usbc into since no fancy circuitpython. This one actually scares me a little, i better set up version control before touching it.
 ## 12:34
 Wow that was unexpected, the codex code worked!! First try!!
-Man these agents some time are so unpredictable, like it struggled with inverted logic in PYTHON of all thing, but then when asked to translate a whole ass 700 line project that used a web interface to a mqtt 
+Man these agents some time are so unpredictable, like it struggled with inverted logic in PYTHON of all thing, but then when asked to translate a whole ass 700 line project that used a web interface to a mqtt in the arduinoFramework for an esp32, it's done it first try, this is incredibly unexpected.
+So here it is![[Pasted image 20260328123711.png]]
+I wonder if i can actually make it sync with my phone alarm
