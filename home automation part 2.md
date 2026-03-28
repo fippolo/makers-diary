@@ -12,4 +12,4 @@ It turns out it was a bit more difficult than that since i had to actually refer
 
 ## 12:18
 So now it's time for the screen and light to get mqtt'd
-This one i actually need to plug a usbc into since no fancy circuitpython. 
+This one i actually need to plug a usbc into since no fancy circuitpython. This one actually scares me a little, i better set up version control before touching it.
