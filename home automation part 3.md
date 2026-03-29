@@ -22,3 +22,9 @@ These are the helpers, again very basic
 And then i used [this](https://community.home-assistant.io/t/simple-light-wake-up-alarm-with-parabolic-sunrise-effect/673747) blueprint.
 
 ### ios
+The ios side took some time to nail down correctly, what i did are two shortcuts one that sends the state of an alarm with a certain tag to the node-RED endpoints:![[Pasted image 20260329150048.png]]
+![[Pasted image 20260329150103.png]]
+This as to use a return because for some reason the alternative flow did'n trigger the get URL content block so i couldn't actually send the post to the node-RED endpoint.
+And then another script to send the time to wake me up at:
+![[Pasted image 20260329150220.png]]
+This also chains the execution of sending the state at the end because for some reason ios didn't want to execute those 2 scripts separately on the same trigger so it has to be like that... But hey 
