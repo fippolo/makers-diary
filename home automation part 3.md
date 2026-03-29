@@ -14,4 +14,11 @@ I also have to mention that the esp32 device that controls the overhead light on
 ### node-RED
 These are the two flows
 ![[Pasted image 20260329144655.png]]
-Very easy, i know i could have made them with scripts on Hass but i couldn't be bothered
+Very easy, i know i could have made them with scripts on Hass but i couldn't be bothered.
+
+### Hass
+![[Pasted image 20260329145640.png]]
+These are the helpers, again very basic
+And then i used [this](https://community.home-assistant.io/t/simple-light-wake-up-alarm-with-parabolic-sunrise-effect/673747) blueprint.
+
+### ios
