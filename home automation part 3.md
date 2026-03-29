@@ -27,4 +27,10 @@ The ios side took some time to nail down correctly, what i did are two shortcuts
 This as to use a return because for some reason the alternative flow did'n trigger the get URL content block so i couldn't actually send the post to the node-RED endpoint.
 And then another script to send the time to wake me up at:
 ![[Pasted image 20260329150220.png]]
-This also chains the execution of sending the state at the end because for some reason ios didn't want to execute those 2 scripts separately on the same trigger so it has to be like that... But hey 
+This also chains the execution of sending the state at the end because for some reason ios didn't want to execute those 2 scripts separately on the same trigger so it has to be like that... But hey, if it works it's not stupid.
+Than i just trigger these scripts whenever i close the clock app, i did this instead of doing it periodically assuming that whenever i open the clock i change the alarm time. Besides this does not cover the possibility that i could change my alarm while not connected to the wifi (either not using it or not in the house) so this is actually quite dangerous, hey at least everything should work perfectly as long as i respect this constraint. I might add also a daily execution at like 1:00 AM to avoid accidentally waking me up.
+
+### results:
+Here's the desk light (unfortunatly this is linear)
+![[Pasted image 20260329150752.png]] 
+
