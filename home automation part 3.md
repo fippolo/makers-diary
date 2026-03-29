@@ -2,6 +2,7 @@
 created: 2026-03-29
 tags:
   - network
+  - diary
 ---
 ## 14:42
 Yesterday i was able to make everything work and now i'm able to sync my phone alarm to the homeassistant server.
@@ -35,4 +36,4 @@ Here's the desk light (unfortunatly this is linear)
 ![[Pasted image 20260329150752.png]] 
 
 I would actually show you the graph for the real light but i can't find it, just know it is actually parabolic and the kelvins change too. 
-I have to say this is surprisingly effective, today i woke up just few minutes before the alarm, this just make me want to put a smart light on my main ceiling light too, although maybe
+I have to say this is surprisingly effective, today i woke up just few minutes before the alarm, this just make me want to put a smart light on my main ceiling light too, although maybe a smart dimmer on the electrical box where it's switch is would be enough, but that means i would need to bring power to that box since inside there's only a single pole switch.
