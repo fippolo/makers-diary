@@ -34,3 +34,5 @@ Than i just trigger these scripts whenever i close the clock app, i did this ins
 Here's the desk light (unfortunatly this is linear)
 ![[Pasted image 20260329150752.png]] 
 
+I would actually show you the graph for the real light but i can't find it, just know it is actually parabolic and the kelvins change too. 
+I have to say this is surprisingly effective, today i woke up just few minutes before the alarm, this just make me want to put a smart light on my main ceiling light too, although maybe
