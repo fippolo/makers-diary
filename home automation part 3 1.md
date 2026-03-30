@@ -26,4 +26,10 @@ I was able to use ESPHome and a specific irk extraction firmware to get the irk 
 Using that IRK i am just able to integrate it as a private BLE device on stock hass
 #### Bermuda
 This is where it gets interesting. Using [HACS](https://www.hacs.xyz/) i am able to install Bermuda that instantly gets the private BLE device and have a fast refresh distance entity for my phone
-#### 
+#### manual override
+Just a basic switch template:
+![[Pasted image 20260330233747.png]]
+This is basically acts as a global variable between node-RED and home assistant
+
+# 3d printer
+The 3d printer setup actually is quite convoluted, and it also does introduce a circular usage dependency. That's the reason we are going to look at node-RED in here:
