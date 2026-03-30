@@ -3,6 +3,7 @@ tags:
   - electronics
   - network
   - diary
+created: 2026-03-30
 ---
 
 # poor mans presence sensor 
@@ -21,5 +22,8 @@ On that note let me quickly write down what i did today:
 You can read this [[misc 1]] to check out what was wrong
 #### IRK
 I was able to use ESPHome and a specific irk extraction firmware to get the irk code of my phone, specifically used [Derek Seaman irk-capture ](https://github.com/DerekSeaman)firmware, very nice, worked nicely first try, well done mr. Seaman.
-#### private bluetooth
-Using that IRK 
+#### private BLE device
+Using that IRK i am just able to integrate it as a private BLE device on stock hass
+#### Bermuda
+This is where it gets interesting. Using [HACS](https://www.hacs.xyz/) i am able to install Bermuda that instantly gets the private BLE device and have a fast refresh distance entity for my phone
+#### 
