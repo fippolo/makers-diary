@@ -108,4 +108,8 @@ gcode:
       RESPOND MSG="Auto poweroff is disabled"
     {% endif %}
 ```
-Here is where thing get weird, the "turn off when done printing" logic sits on the printer firmware, since that's the best place to determine when a print is done, but the presence logic sits on node-RED, so the printer notifies the state to it, hence the circular dependency (i'm ok wi.
+Here is where thing get weird, the "turn off when done printing" logic sits on the printer firmware, since that's the best place to determine when a print is done, but the presence logic sits on node-RED, so the printer notifies the state to it, hence the circular dependency (i'm ok with this since it just reflects on the added feature and not on both systems functionalities).
+
+#### Node-RED logic
+![[Pasted image 20260330235503.png]]
+This 
