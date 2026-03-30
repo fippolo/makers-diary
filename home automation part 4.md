@@ -33,3 +33,8 @@ This is basically acts as a global variable between node-RED and home assistant
 
 # 3d printer
 The 3d printer setup actually is quite convoluted, and it also does introduce a circular usage dependency. That's the reason we are going to look at node-RED in here:
+![[Pasted image 20260330234517.png]]
+(Yes i know i am using GET)
+This just set global variables based on the 3d printer state, where i defined macros to actually use these endpoint using gcode shell commands and curl:
+
+I call these comands on the standard print end and start macros
