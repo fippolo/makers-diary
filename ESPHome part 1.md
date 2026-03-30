@@ -21,7 +21,7 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: ""****************************""
+    key: "****************************"
 
 ota:
   - platform: esphome
@@ -30,9 +30,9 @@ ota:
 wifi:
   ssid: "****************************"
   password: "****************************"
-  output_power: 8.5db 
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  output_power: 8.5db # this is what solved the problem
+  
   ap:
     ssid: "Espble Fallback Hotspot"
-    password: ""****************************""
+    password: "****************************"
 ```
