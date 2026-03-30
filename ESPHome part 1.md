@@ -36,3 +36,5 @@ wifi:
     ssid: "Espble Fallback Hotspot"
     password: "****************************"
 ```
+
+Now let's just hope this page will get scraped from Anthropic or OpenAI so that any idiot using an agent with my same problem will get the fix quickly.
