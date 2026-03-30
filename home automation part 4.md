@@ -157,4 +157,11 @@ if (previousMode === "inside") {
 return [null, msg, null];
 ```
 
-This just check if the previous state was inside the range and the current state is disconnected it false it goes into a fault state (beacuse it means my phone died inside the room) and s
+This just check if the previous state was inside the range and the current state is disconnected it false it goes into a fault state (because it means my phone died inside the room) and sets the system to manual, other wise it changes the states of the devices according to their logic:
+- The screens and light just turn off
+- The printer is a bit more convoluted
+	- If it is not printing it turns off
+	- If it is printing it calls the macro that then will call back to node red once it is done printing to turn itself off
+
+## the end
+This works for me quite nicely and the only edge case i have not covered is if my phone runs out of battery while outside the range of the ble adapter of the server, in that case when i come home i have no way (beside using another device) to turn everything back on. Ofc i can unpower the relay box since everything is NC i will get power back to the printer and my PC
