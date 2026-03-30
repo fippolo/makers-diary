@@ -21,4 +21,4 @@ On that note let me quickly write down what i did today:
 You can read this [[misc 1]] to check out what was wrong
 #### IRK
 I was able to use ESPHome and a specific irk extraction firmware to get the irk code of my phone, specifically used [Derek Seaman irk-capture ](https://github.com/DerekSeaman)firmware, very nice, worked nicely first try, well done mr. Seaman.
-#### private
+#### private bluetooth
