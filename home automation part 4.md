@@ -112,4 +112,87 @@ Here is where thing get weird, the "turn off when done printing" logic sits on t
 
 #### Node-RED logic
 ![[Pasted image 20260330235503.png]]
-This 
+This is the flow that handles presence, let's go over it from left to right, i have a inject node that triggers every 1.5 sec. Then i extract the state of the Bermuda entry and feed it to this function block:
+```JavaScript
+// output 1 = inside -> ON
+
+// output 2 = outside -> OFF
+
+// output 3 = lost after previously inside -> manual override ON
+
+  
+
+let raw = msg.payload;
+
+let distance = Number(raw);
+
+let isNumeric = Number.isFinite(distance);
+
+  
+
+let currentMode;
+
+if (isNumeric) {
+
+    currentMode = distance < 5 ? "inside" : "outside";
+
+} else {
+
+    currentMode = "lost";
+
+}
+
+  
+
+let previousMode = flow.get("bleMode") || null;
+
+  
+
+// always update stored mode
+
+flow.set("bleMode", currentMode);
+
+  
+
+// do nothing if mode did not change
+
+if (currentMode === previousMode) {
+
+    return null;
+
+}
+
+  
+
+// decide action only on transitions
+
+if (currentMode === "inside") {
+
+    return [msg, null, null];
+
+}
+
+  
+
+if (currentMode === "outside") {
+
+    return [null, msg, null];
+
+}
+
+  
+
+// currentMode === "lost"
+
+if (previousMode === "inside") {
+
+    return [null, null, msg];
+
+}
+
+  
+
+// lost after outside/lost -> normal off or nothing
+
+return [null, msg, null];
+```
