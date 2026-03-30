@@ -164,4 +164,6 @@ This just check if the previous state was inside the range and the current state
 	- If it is printing it calls the macro that then will call back to node red once it is done printing to turn itself off
 
 ## the end
-This works for me quite nicely and the only edge case i have not covered is if my phone runs out of battery while outside the range of the ble adapter of the server, in that case when i come home i have no way (beside using another device) to turn everything back on. Ofc i can unpower the relay box since everything is NC i will get power back to the printer and my PC
+This works for me quite nicely and the only edge case i have not covered is if my phone runs out of battery while outside the range of the ble adapter of the server, in that case when i come home i have no way (beside using another device) to turn everything back on. Ofc i can unpower the relay box since everything is NC i will get power back to the printer and my PC, and also my main light is unsmart so it will always work :3. I am thinking to make a override physical switch to set everything into manual mode and then turn on everything for good measure using ESPHome.
+
+That is it for today, thank you for the read and if you have any questions remember that you can mail me at <fippolo@r4inbow.ddns.net> , have a nice day :)
