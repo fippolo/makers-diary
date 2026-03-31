@@ -13,7 +13,7 @@ Today i was looking at my workbench light. I like this light a lot, its nicely d
 It is a usb light and it is controlled by a very "un-complex" controller inline with the usb cable![[Pasted image 20260331111531.png]]
 And so i begin to wonder, how hard could it be to hook the button and have a microcontroller interact with the pcb board.
 So i opened up the pcb and took a look at it ![[Pasted image 20260331112151.png]]
-(did not take a foto of the other side) Unfortunately the controller inside is not labeled so i got to probing, it looks like the button shorts a pin of the controller to ground so it is likely to be using a pull-up resistor to read the button state, and the signal side measure, when idling, oddly enough 2.5 V, being USB 5 V i suspect there is some in series shenanigans going on here, but that does not matter to me, all i need to know is that the voltage is below the rated voltage of the esp32-c3 i'm going to use, and that it shorts to ground so i would need to configure the driving pin on our own controller to be an open-drain output to pull down on the pcb pin. So i got working on the soldering.
+(did not take a foto of the other side) Unfortunately the controller inside is not labeled so i got to probing, it looks like the button shorts a pin of the controller to ground so it is likely to be using a pull-up resistor to read the button state, and the signal side measured, somewhat unexpectedly, 2.5 V when idle. Being USB 5 V i suspect there is some in series shenanigans going on here, but that does not matter to me, all i need to know is that the voltage is below the rated voltage of the esp32-c3 i'm going to use, and that it shorts to ground so i would need to configure the driving pin on our own controller to be an open-drain output to pull down on the pcb pin. So i got working on the soldering.
 ![[Pasted image 20260331112820.png]]
 I drilled a hole through using my dremmel and hooked 5v, gnd, and the isolated side of the button. Then i defined the ESPHome configuration as such:
 ```yaml
@@ -41,5 +41,5 @@ button:
 ```
 
 Just as described i defined a pin to be open drain and with inverted logic, and then defined the script to actuate that IO and then defined the actual button Hass will integrate.
-Uploading it over OTA works and now i can press the button remotely. I think that this project besides being very basic shows the true potential of ESPHome and basic electronics knowledge, without any additional components we are able to command devices that have the same logic voltage or below of the esp32-c3 devboard, and a very cheap at that, this incredibly useful integration costed me a whole 2,3 €.
+Uploading it over OTA works and now i can press the button remotely. I think that this project besides being very basic shows the true potential of ESPHome and basic electronics knowledge, without any additional components we are able to command devices whose logic voltage is at or below that of the ESP32-C3 devboard, and a very cheap at that, this incredibly useful integration costed me a whole 2,3 €.
 
