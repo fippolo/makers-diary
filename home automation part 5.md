@@ -47,4 +47,11 @@ Uploading it over OTA works and now i can press the button remotely. I think tha
 I later revised the ESPHome to be a switch that keeps track of the state of the light, and if it ever gets desynced i can use the original button to switch the light on and off according to the reported state of the esp32.
 
 ### 3d printer e-stop
-I always wanted a e-stop for my 3d printer, and now i can just make one. I grabbed this [nice model](https://www.printables.com/model/926060-6mm-push-button-housing/comments) from printables and printed it out
+I always wanted a e-stop for my 3d printer, and now i can just make one. I grabbed this [nice model](https://www.printables.com/model/926060-6mm-push-button-housing/comments) from printables and printed it out. ![[Pasted image 20260331125800.png]]
+Everything is ready and assembly is very easy and requires just a bit of soldering, although i suggest using smaller wires for this since i had to cut some of it to fit inside the print.
+![[Pasted image 20260331125918.png]]
+This is the finished product, i twisted and covered with heatsing the initial part to offer some strain relief  , then i carefully soldered it to the already existing esp32-c3![[Pasted image 20260331130128.png]]
+
+On the software side i defined the button on ESPHome:
+
+
