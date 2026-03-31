@@ -13,4 +13,31 @@ Today i was looking at my workbench light. I like this light a lot, its nicely d
 It is a usb light and it is controlled by a very "un-complex" controller inline with the usb cable![[Pasted image 20260331111531.png]]
 And so i begin to wonder, how hard could it be to hook the button and have a microcontroller interact with the pcb board.
 So i opened up the pcb and took a look at it ![[Pasted image 20260331112151.png]]
-(did not take a foto of the other side) Unfortunately the controller inside is not labeled so i got to probing, it looks like the button shorts a pin of the controller to ground so it must be using a pull-up resistor to read the button state, and the voltage across the button terminals when idling is oddly enough 2.5 V, being USB 5 V i suspect there is some in series shenanigans going on here, but that does not matter to me, all i need to know is that the voltage 
+(did not take a foto of the other side) Unfortunately the controller inside is not labeled so i got to probing, it looks like the button shorts a pin of the controller to ground so it must be using a pull-up resistor to read the button state, and the voltage across the button terminals when idling is oddly enough 2.5 V, being USB 5 V i suspect there is some in series shenanigans going on here, but that does not matter to me, all i need to know is that the voltage is below the rated voltage of the esp32-c3 i'm going to use, and that it shorts to ground so i would need to define the driving pin on our own controller to be a open drain to pull down on the pcb pin. So i got working on the soldering.
+![[Pasted image 20260331112820.png]]
+I drilled a hole through using my dremmel and hooked 5v, gnd, and the isolated side of the button. Then i defined the ESPHome configuration as such:
+```yaml
+output:
+  - platform: gpio
+    id: pcb_button_out
+    pin:
+      number: GPIO4
+      mode: OUTPUT_OPEN_DRAIN
+      inverted: true
+
+script:
+  - id: press_pcb_button
+    mode: restart
+    then:
+      - output.turn_on: pcb_button_out
+      - delay: 100ms
+      - output.turn_off: pcb_button_out
+
+button:
+  - platform: template
+    name: "Press PCB Button"
+    on_press:
+      - script.execute: press_pcb_button
+```
+
+Just as described i defined a pin to be open drain and with inverted logic, and 
