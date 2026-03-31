@@ -54,4 +54,20 @@ This is the finished product, i twisted and covered with heatsing the initial pa
 
 On the software side i defined the button on ESPHome:
 
+```yaml
+binary_sensor:
+  - platform: gpio
+    id: gpio3_button
+    name: "GPIO3 Button"
+    pin:
+      number: GPIO3
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+```
 
+And then with a quick flow on node-RED i can trigger through the moonraker api a emergency stop:
+![[Pasted image 20260331130322.png]]
+
+Granted this is not the best, it is relying to quite a big stack to basically just stop sending gcode comands to a printer. A proper estop would involve cutting power to the printer interrupting L and N going to it.
