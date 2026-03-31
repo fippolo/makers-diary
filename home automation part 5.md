@@ -40,4 +40,5 @@ button:
       - script.execute: press_pcb_button
 ```
 
-Just as described i defined a pin to be open drain and with inverted logic, and 
+Just as described i defined a pin to be open drain and with inverted logic, and then defined the script to actuate that IO and then defined the actual button Hass will integrate.
+Uploading it over OTA works and now i can press the button remotely. I think that this project besides being very basic shows the true potential of ESPHome and basic electronics knowledge 
