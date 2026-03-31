@@ -41,4 +41,5 @@ button:
 ```
 
 Just as described i defined a pin to be open drain and with inverted logic, and then defined the script to actuate that IO and then defined the actual button Hass will integrate.
-Uploading it over OTA works and now i can press the button remotely. I think that this project besides being very basic shows the true potential of ESPHome and basic electronics knowledge 
+Uploading it over OTA works and now i can press the button remotely. I think that this project besides being very basic shows the true potential of ESPHome and basic electronics knowledge, without any additional components we are able to command devices that have the same logic voltage or below of the esp32-c3 devboard, and a very cheap at that, this incredibly useful integration costed me a whole 2,3 €.
+
