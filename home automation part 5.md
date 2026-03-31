@@ -44,4 +44,6 @@ Just as described i defined a pin to be open drain and with inverted logic, and 
 Uploading it over OTA works and now i can press the button remotely. I think that this project besides being very basic shows the true potential of ESPHome and basic electronics knowledge, without any additional components we are able to command devices whose logic voltage is at or below that of the ESP32-C3 devboard, and a very cheap at that, this incredibly useful integration costed me a whole 2,3 €.
 
 ## 12:43
-I later revised the ESPHome to be a switch that keeps track of the state of the light, and if it ever gets desynced i can use the original button to switch the light on and off according to the reported state of the esp32
+I later revised the ESPHome to be a switch that keeps track of the state of the light, and if it ever gets desynced i can use the original button to switch the light on and off according to the reported state of the esp32.
+
+### 3d printer estop
