@@ -11,3 +11,5 @@ Today i was looking at my workbench light. I like this light a lot, its nicely d
 ![[Pasted image 20260331111355.png]]
 
 It is a usb light and it is controlled by a very "un-complex" controller inline with the usb cable![[Pasted image 20260331111531.png]]
+And so i begin to wonder, how hard could it be to hook the button and have a microcontroller interact with the pcb board.
+There were a few consideration to make this work, luckly most of them are trivial, the first i need to consider how the button operates 
