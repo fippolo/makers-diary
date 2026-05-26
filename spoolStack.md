@@ -25,4 +25,13 @@ And so i wen't back to thinking, the only thing i could do to the nut without co
 This design still was difficult to screw in since the thread standard (M45) isn't really made to be 3dprinted but i wanted to avoid using custom threads as i think they are rarely the solution, and difficult to parameterize. Also there is a risk of the cylinder collapsing on itself. The solution came to me while i was post processing one of the nuts, cleaning the internal threads is a difficult task that requires you to reach into the thread with a X-Acto knife to cut the lines that didn't adhere properly to the layer below, and i was thinking on how it would be so much easier if i had an m45 internal thread cutter, and that's when it hit me, i could just have features on the screw to clean the thread for me, and so i added groves onto the crest of the thread and gave the screw some reinforcements and a better way to grab and spin it:
 ![[Pasted image 20260526110729.png]]![[Pasted image 20260526110745.png]]
 
-Now i can fit a rod through it for leverage, or use pliers to keep it still while screwing a nut:
+Now i can fit a rod through it for leverage, or use pliers to keep it still while screwing a nut (otherwise the whole stack of rods would spin in place since it's locked together):
+![[Pasted image 20260526111017.png]]
+![[Pasted image 20260526111027.png]]
+
+I also scaled +3% the nut to make it easier to screw on, and now post processing is not needed, and the strings have the added benefit to lock the nut in place kind of like teflon on a watertight joint.
+
+Another issue i encountered, is that to accomodate differently thick spools you would need differently tall rods to go through them. I came up with a classical solution of just stacking washers on, this also helps the spool spin in place without spinning the whole stack:
+![[Pasted image 20260526111455.png]]
+
+Lastly i modified one of the screw 
