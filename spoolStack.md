@@ -22,4 +22,4 @@ And so i wen't back to thinking, the only thing i could do to the nut without co
 ![[Pasted image 20260526105814.png]]
 ![[Pasted image 20260526105823.png]]
 
-This design still was difficult to screw in since the thread standard (M45) isn't really made to be 3dprinted but i wanted to avoid using custom threads as i think they are rarely the solution, and difficult to parametrices 
+This design still was difficult to screw in since the thread standard (M45) isn't really made to be 3dprinted but i wanted to avoid using custom threads as i think they are rarely the solution, and difficult to parameterize. Also there is a risk of the cylinder collapsing on itself. The solution came to me while i was post processing one of the nuts, cleaning the internal threads is a difficult task that requires you to reach into the thread with a X-Acto knife to cut the lines that didn't adhere properly to the layer below, and i was thinking on how it would be so much easier if i had an m45 internal thread cutter
