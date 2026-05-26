@@ -34,4 +34,6 @@ I also scaled +3% the nut to make it easier to screw on, and now post processing
 Another issue i encountered, is that to accomodate differently thick spools you would need differently tall rods to go through them. I came up with a classical solution of just stacking washers on, this also helps the spool spin in place without spinning the whole stack:
 ![[Pasted image 20260526111455.png]]
 
-Lastly i modified one of the screw 
+Lastly i modified one of the screw to be the stand for the stack, basically the bottom screw has a wide base to keep everything steady and not tip over:
+![[Pasted image 20260526111702.png]]
+![[Pasted image 20260526111708.png]]
