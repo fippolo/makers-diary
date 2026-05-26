@@ -39,4 +39,10 @@ Lastly i modified one of the screw to be the stand for the stack, basically the 
 ![[Pasted image 20260526111708.png]]
 
 ## printables link
-All files can be found here
+All files can be found [here](https://www.printables.com/model/1735010-spoolstack-v1)
+
+## PS
+Sorry for the large images, i wanted to use full res this time around to see how it does.
+
+And as always thank you for your time reading this. 
+Happy making.
