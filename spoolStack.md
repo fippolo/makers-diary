@@ -37,3 +37,6 @@ Another issue i encountered, is that to accomodate differently thick spools you 
 Lastly i modified one of the screw to be the stand for the stack, basically the bottom screw has a wide base to keep everything steady and not tip over:
 ![[Pasted image 20260526111702.png]]
 ![[Pasted image 20260526111708.png]]
+
+## printables link
+All files can be found here
