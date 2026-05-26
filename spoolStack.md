@@ -11,4 +11,5 @@ Today i'm going to tell you about one of my most recent projects. One of the use
 
 Anyway drawers aside, one of the problem that arises with them is how to stack the spools together, and i tough that it would be a nice problem to solve and so i started tinkering.
 What first came to mind was using a threaded rod and captive nuts to basically clamp the spools together, but i thought there's no use for a stack if you cant spin it around to reach the drawers on the back side, using ball bearings on the top and bottom clamps would be a good idea and cheap at that.
-BUT... Where's the fun i
+BUT... Where's the fun in using external hardware?? And so i spun up Fusion and set of to design something that: didn't use external hardware, didn't have a length limitation, simple in design, worked for many spools,and capable of spinning individual spools in the stack.
+What i came up with initially was basically my first idea of using a threaded rod but 3d printed, but you have a height limitation in that, so i cut the rod in different segments and made a nut with a double cone shape to fit some variation on the ID of the spools, so basically the rod should be just long enough to clamp one spool, you sh
