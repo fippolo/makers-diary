@@ -14,4 +14,12 @@ What first came to mind was using a threaded rod and captive nuts to basically c
 BUT... Where's the fun in using external hardware?? And so i spun up Fusion and set of to design something that: didn't use external hardware, didn't have a length limitation, simple in design, worked for many spools,and capable of spinning individual spools in the stack.
 What i came up with initially was basically my first idea of using a threaded rod but 3d printed, but you have a height limitation in that, so i cut the rod in different segments and made a nut with a double cone shape to fit some variation on the ID of the spools. The rod and the nut are just tall enough to be able to clamp the spool and leave some thread on the nut to screw in the next segment, this will lock the nut in place due to the forces of the rods pushing against each other. So what you do is tighten the nuts just enough to constrain the movement of the spool and then add another segment of the rod above to put another spool in. Here are some pictures of this first design:
 ![[WhatsApp Image 2026-05-26 at 10.52.31.jpeg]]
-(i had to cut it in half )
+(i had to cut it in half at some point sorry)
+
+So this worked nicely for about 10 seconds, then i got frustrated because the nut internal threads wouldn't print nicely and it was very difficult to screw it in, and the thread on the rod believe it or not would cut my hand when i tried to screw it in. Oh and also print time was atrocious.
+
+And so i wen't back to thinking, the only thing i could do to the nut without compromising it's simplicity too much was to add some grooves to better grip it, and to cut on print time i realised i only really needed the threads on the rod near the ends of it so i smoothed out the center of the rod:
+![[Pasted image 20260526105814.png]]
+![[Pasted image 20260526105823.png]]
+
+This design still was difficult to screw in since the thread standard (M45) isn't really made to be 3dprinted but i wanted to avoid using custom threads as i think they are rarely the solution, and difficult to parametrices 
