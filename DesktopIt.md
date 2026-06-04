@@ -19,4 +19,5 @@ I set myself some requirements:
 - Should have at least undo functionality
 - Smooth experience, ease of use
 Those are very reachable and not too crazy.
-So i started looking at libraries and of course  Gtk came up so i went with it (Gtkmm)
+So i started looking at libraries and of course Gtk came up so i went with it (Gtkmm). I have to say, windows is not the best os to be doing this in. 
+To be honest development went pretty decently, i'm pleasantly surprised i still got it, even though i got claude to help i treated it like a senior developer, askin implementation 
