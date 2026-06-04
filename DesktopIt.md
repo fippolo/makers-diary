@@ -24,10 +24,8 @@ To be honest development went pretty decently, i'm pleasantly surprised i still 
 Lastly
 When it comes to teaching, especially programming, there's a specific threshold amount of code written by the teacher where teaching becomes babysitting, I personally think that llm usage should be treated the same way, you shouldn't demonize that tool the same way you shouldn't demonize a teacher lmao, it is just up to us to use it correctly.
 And also generating staright code out of your arse in some situations is very understandable and even commendable, just don't get drunk with power
-
 ## github link
-Https://github.com/fippolo/DesktopIt
-
+[Repo here](https://github.com/fippolo/DesktopIt)
 ## PS
 That was quite the rambling i embarked on there, and you read through all that? Thank you for your time i guess. I'm very open to talk about this with anyone, you can find my e-mail at the top, any insight, criticism, opinions about llm usage will help us all get a clear picture on how we should use this new tool and adapt to it.
 Thanks !!
