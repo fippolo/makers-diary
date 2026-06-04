@@ -20,4 +20,4 @@ I set myself some requirements:
 - Smooth experience, ease of use
 Those are very reachable and not too crazy.
 So i started looking at libraries and of course Gtk came up so i went with it (Gtkmm). I have to say, windows is not the best os to be doing this in. 
-To be honest development went pretty decently, i'm pleasantly surprised i still got it, even though i got claude to help i treated it like a senior developer, askin implementation 
+To be honest development went pretty decently, i'm pleasantly surprised i still got it, even though i got claude to help i treated it like a senior developer, asking implementation details, methods signature etc... Still feel like i've lost a lot of, let's call it, awareness, while writing code, especially when it comes to using libraries, i would like to blame IDEs, i would like to say that c++ is not my goto usually etc... Etc.. But i really feel like the immediacy of learning a framework has eroded away in this ai powered age, and also didn't, using a tool like claude or chatgpt to learn a library or framewor
