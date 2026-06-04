@@ -11,4 +11,12 @@ As you can see here, i have some a5 sheets between me and the keyboard, which i 
 Of course, as luck would have it, nothing that fit those criteria exists and so i took it as a challenge for myself
 
 ## What i did
-What i decided to do was to challenge myself, lately i understood that my usage of llms made me dependent on that tool so what i set out to do was to make a this project without generating any code
+What i decided to do was to challenge myself, lately i understood that my usage of llms made me dependent on that tool so what i set out to do was to make this project without generating any code (use is still allowed, YOU CAN'T MAKE ME READ DOCS).
+I set myself some requirements:
+- App should not have ANY ui elements besides the drawing surface
+- Written in C++
+- Works for my os
+- Should have at least undo functionality
+- Smooth experience, ease of use
+Those are very reachable and not too crazy.
+So i started looking at libraries and of course  Gtk came up so i went with it (Gtkmm)
