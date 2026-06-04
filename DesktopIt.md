@@ -29,4 +29,5 @@ And also generating staright code out of your arse in some situations is very un
 Https://github.com/fippolo/DesktopIt
 
 ## PS
-That was quite the rambling i embarked on there, and you read through all that? Thank you for your time i guess. I'm very open to talk about this with anyone, you can find my e-mail at the top, any insight, criticism, opinions about llm usage will help us all get a clear picture on how we should use this new tool.
+That was quite the rambling i embarked on there, and you read through all that? Thank you for your time i guess. I'm very open to talk about this with anyone, you can find my e-mail at the top, any insight, criticism, opinions about llm usage will help us all get a clear picture on how we should use this new tool and adapt to it.
+Thanks !!
