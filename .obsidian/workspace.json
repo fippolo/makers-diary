@@ -25,18 +25,15 @@
             "id": "4aa40b1929c8c62e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "what i've been up to.md",
-                "mode": "source",
-                "source": false
+                "file": "pasted images/Pasted image 20261113123901.png"
               },
-              "icon": "lucide-file",
-              "title": "what i've been up to"
+              "icon": "lucide-image",
+              "title": "Pasted image 20261113123901"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "what i've been up to.md",
+                "file": "spoolStack complete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "what i've been up to.md",
+                "file": "spoolStack complete.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -176,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "what i've been up to.md",
+                "file": "spoolStack complete.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,14 +201,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4aa40b1929c8c62e",
+  "active": "d0bc0c1313ef84c8",
   "lastOpenFiles": [
-    "Pasted image 20261113124852.png",
-    "Pasted image 20261113124443.png",
-    "Pasted image 20261113123914.png",
-    "Pasted image 20261113123901.png",
-    "DesktopIt.md",
+    "pasted images/Pasted image 20261113123901.png",
     "what i've been up to.md",
+    "pasted images/Pasted image 20261113124852.png",
+    "pasted images/Pasted image 20261113124443.png",
+    "pasted images/Pasted image 20261113123914.png",
+    "DesktopIt.md",
     "spoolStack complete.md"
   ]
 }
